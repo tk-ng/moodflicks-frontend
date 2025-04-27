@@ -1,0 +1,7 @@
+.movie-card .dropdown-menu {
+	top: auto !important;
+}
+
+.movie-card {
+	max-width: 1200px;
+}

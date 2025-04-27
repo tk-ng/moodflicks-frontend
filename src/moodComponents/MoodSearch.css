@@ -1,0 +1,31 @@
+.MoodList .list-group-item {
+	background: rgba(255, 255, 255, 0.05);
+	border-radius: 8px;
+	padding: 1.2rem 1.5rem;
+	color: #fff;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+	transition: transform 0.2s ease, background 0.3s ease;
+	backdrop-filter: blur(6px);
+	border: 2px solid transparent;
+	background-clip: padding-box;
+	position: relative;
+}
+
+.MoodList .list-group-item a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.MoodList .list-group-item:hover {
+	transform: translateY(-3px);
+	background: rgba(255, 255, 255, 0.08);
+}
+
+.MoodList .badge {
+	font-size: 0.75rem;
+	padding: 0.5em 0.75em;
+}
+
+.MoodList .list-group-item-text {
+	font-size: 0.875rem;
+}

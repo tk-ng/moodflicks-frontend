@@ -1,0 +1,22 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Render VoteMoodButtons component > matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="d-flex justify-content-around"
+  >
+    <button
+      class="btn btn-primary"
+      type="button"
+    >
+      👍
+    </button>
+    <button
+      class="btn btn-danger"
+      type="button"
+    >
+      👎
+    </button>
+  </div>
+</DocumentFragment>
+`;

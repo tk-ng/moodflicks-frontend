@@ -1,0 +1,7 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Render MovieSearch component with keyword search > mounts trending movies without crashing (without movies) 1`] = `[Function]`;
+
+exports[`Render MovieSearch component without keyword search > mounts trending movies without crashing (without movies) 1`] = `[Function]`;
+
+exports[`Render MovieSearch component without keyword search > mounts without crashing without movies 1`] = `[Function]`;

@@ -1,0 +1,29 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Renders the Homepage component > mounts without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="Homepage p-5"
+  >
+    <h1
+      class="Homepage-title pb-5"
+    >
+      WELCOME TO MOODFLICKS!
+    </h1>
+    <h2>
+      Discover movies that match your mood.
+    </h2>
+    <p>
+      Sorry, no results were found!
+    </p>
+    <div
+      class="container mt-5"
+    >
+      With MoodFlicks, you create personalized mood-based movie lists, explore curated vibes from other users, and get unique recommendations based on shared emotional themes—so you’re never stuck scrolling again. Whether you’re in the mood to laugh, cry, think, or chill—MoodFlicks gets it.
+    </div>
+    <div>
+      Start building your vibe today.
+    </div>
+  </div>
+</DocumentFragment>
+`;

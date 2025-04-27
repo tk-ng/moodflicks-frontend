@@ -1,0 +1,16 @@
+.RecommendedMoviesModal.modal {
+	--bs-modal-bg: rgba(152, 0, 0, 0.95);
+	background-color: transparent;
+	--bs-modal-footer-border-color: black;
+	--bs-modal-header-border-color: black;
+}
+
+.RecommendedMoviesModal a {
+	text-decoration: none;
+	text-align: center;
+	color: var(--text-color);
+}
+
+.offcanvas.offcanvas-end {
+	transition: transform 0.3s ease-in-out;
+}

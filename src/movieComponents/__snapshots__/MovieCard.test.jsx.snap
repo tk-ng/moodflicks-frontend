@@ -1,0 +1,5 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Render the MovieCard component > matches snapshot 1`] = `[Function]`;
+
+exports[`Render the MovieCard component > matches snapshot 2`] = `[Function]`;

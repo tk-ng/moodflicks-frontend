@@ -1,0 +1,9 @@
+.offcanvas {
+	border-radius: 8px 8px 0px 0px;
+	background-color: rgba(152, 0, 0, 0.95);
+}
+
+.offcanvas-header {
+	border-bottom: 1px solid black;
+	color: white;
+}

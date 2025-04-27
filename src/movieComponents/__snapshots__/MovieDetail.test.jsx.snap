@@ -1,0 +1,5 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Render the MovieDetail component > mounts without crashing 1`] = `[Function]`;
+
+exports[`Render the MovieDetail component > mounts without crashing 2`] = `[Function]`;

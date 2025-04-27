@@ -1,0 +1,61 @@
+:root {
+	--primary-bg: #0d0d0d;
+	--card-bg: #101010d1;
+	--accent-red: #fb0102;
+	--hover-red: #ff3b3b;
+	--text-color: #f0f2f5;
+	--text-muted: #cccccc;
+	--border-color: rgba(255, 255, 255, 0.15);
+	--card-hover: #1a1a1a;
+	--shadow-color: #ffffff;
+
+	font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+	color: var(--text-color);
+	line-height: 1.5;
+	font-weight: 400;
+	color-scheme: light dark;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	background-color: var(--accent-red) !important;
+	color: var(--text-color);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#root a {
+	font-weight: 500;
+	color: var(--text-color);
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--text-color);
+}
+
+button {
+	border-radius: 8px;
+	border: 1px solid transparent;
+	padding: 0.6em 1.2em;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: inherit;
+	background-color: var(--card-hover);
+	color: var(--text-color);
+	cursor: pointer;
+	transition: background-color 0.25s;
+}
+
+button:hover {
+	background-color: var(--hover-red);
+}
+
+h1 {
+	font-size: 3.2em;
+	line-height: 1.1;
+}
