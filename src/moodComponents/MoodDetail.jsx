@@ -7,7 +7,7 @@ import { RecommendedMoviesModal } from "../overlayComponents/RecommendedMoviesMo
 import { UserContext } from "../userComponents/UserContext";
 import { SimilarMoodOffcanvas } from "../overlayComponents/SimilarMoodOffcanvas";
 import { toast } from "react-toastify";
-import { VoteMoodButtons } from "./voteMoodButtons";
+import { VoteMoodButtons } from "./VoteMoodButtons";
 
 export const MoodDetail = () => {
 	const params = useParams();
