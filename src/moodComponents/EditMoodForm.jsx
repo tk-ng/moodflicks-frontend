@@ -21,7 +21,7 @@ export const EditMoodForm = () => {
 	const params = useParams();
 	const naviagte = useNavigate();
 
-	const { currUser } = useContext(UserContext);
+	const { currUser, setCurrUserMoods } = useContext(UserContext);
 	const [mood, setMood] = useState();
 
 	const [
@@ -45,6 +45,8 @@ export const EditMoodForm = () => {
 				username: mood.createdBy,
 			});
 			resetForm();
+			let currentUserMoods = await Api.getMoodsByUser(currUser.username);
+			setCurrUserMoods(currentUserMoods);
 			naviagte(`/moods/${params.id}`);
 			toast.success("Mood changes saved!");
 		} catch (err) {

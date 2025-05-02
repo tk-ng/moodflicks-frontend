@@ -85,6 +85,7 @@ function App() {
 				setCurrentUser,
 				currUserMoods,
 				createMood,
+				setCurrUserMoods,
 			}}
 		>
 			<ToastContainer
