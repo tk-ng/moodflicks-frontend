@@ -31,6 +31,8 @@ export const SearchBar = ({ search }) => {
 			search(formData);
 		}
 	};
+	console.log(search);
+	console.log(search.name);
 	const placeholder =
 		search.name === "movieSearch"
 			? "Search for a movie title..."
