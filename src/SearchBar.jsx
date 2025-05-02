@@ -10,7 +10,7 @@ import {
 } from "reactstrap";
 import { useSearchParams } from "react-router";
 
-export const SearchBar = ({ search }) => {
+export const SearchBar = ({ search, placeholder }) => {
 	const [searchParams, setSearchParams] = useSearchParams();
 
 	const keyword = searchParams.get("keyword") || "";
@@ -31,12 +31,6 @@ export const SearchBar = ({ search }) => {
 			search(formData);
 		}
 	};
-	console.log(search);
-	console.log(search.name);
-	const placeholder =
-		search.name === "movieSearch"
-			? "Search for a movie title..."
-			: "Search by mood...";
 
 	return (
 		<Row className="mb-3">

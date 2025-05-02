@@ -36,7 +36,10 @@ export const MovieSearch = () => {
 
 	return (
 		<>
-			<SearchBar search={movieSearch} />
+			<SearchBar
+				search={movieSearch}
+				placeholder="Search for a movie title..."
+			/>
 			<h1 className="text-light">{header}</h1>
 			{movies && movies.length ? (
 				<MovieCardList movies={movies} />

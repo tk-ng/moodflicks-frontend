@@ -34,7 +34,7 @@ export const MoodSearch = () => {
 
 	return (
 		<div>
-			<SearchBar search={moodSearch} />
+			<SearchBar search={moodSearch} placeholder="Search by mood..." />
 			{moods.length ? <MoodList moods={moods} /> : <p>No moods found</p>}
 		</div>
 	);
