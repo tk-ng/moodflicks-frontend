@@ -19,7 +19,7 @@ describe("Renders the SearchBar component", function () {
 		useSearchParams.mockReturnValue([new Map(), () => vi.fn()]);
 		const { container, asFragment } = render(
 			<MemoryRouter>
-				<SearchBar search={search} />
+				<SearchBar search={search} placeholder="Search by mood..." />
 			</MemoryRouter>
 		);
 		expect(container).toBeInTheDocument();
@@ -31,7 +31,7 @@ describe("Renders the SearchBar component", function () {
 		useSearchParams.mockReturnValue([new Map(), () => vi.fn()]);
 		render(
 			<MemoryRouter initialEntries={[""]}>
-				<SearchBar search={search} />
+				<SearchBar search={search} placeholder="Search by mood..." />
 			</MemoryRouter>
 		);
 		const searchBar = screen.getByPlaceholderText("Search", { exact: false });
