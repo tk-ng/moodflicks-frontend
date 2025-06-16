@@ -1,5 +1,5 @@
 import { render, screen, waitFor } from "@testing-library/react";
-import { VoteMoodButtons } from "./voteMoodButtons";
+import { VoteMoodButtons } from "./VoteMoodButtons";
 import { UserContext } from "../userComponents/UserContext";
 import { MemoryRouter } from "react-router";
 import { Api } from "../api/api";
